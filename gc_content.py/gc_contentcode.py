@@ -48,7 +48,7 @@ df = pd.DataFrame(summary)
 print(df)
 
 import os
-os.makedirs("output", exist_ok=True)  # creates the folder if it doesn't exist
+os.makedirs("output", exist_ok=True)  #creates the folder if it doesn't exist
 
 df.to_csv("output/summary.csv", index=False)
 
