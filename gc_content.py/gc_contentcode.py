@@ -39,7 +39,20 @@ print(C)
 gc = (G + C) / len(genome) * 100
 print(gc)
 
+summary = {
+    "Statistics": ["Genome Length", "A", "T", "G", "C", "GC%"],
+    "Values": [len(genome), A, T, G, C, gc]
+}
+pd.set_option("display.float_format", "{:.2f}".format)
+df = pd.DataFrame(summary)
+print(df)
 
+import os
+os.makedirs("output", exist_ok=True)  # creates the folder if it doesn't exist
+
+df.to_csv("output/summary.csv", index=False)
+
+# %%
 
 
 # %%
