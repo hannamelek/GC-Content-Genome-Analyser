@@ -83,6 +83,7 @@ gc_df.to_csv(
 
 
 # %%
+#Plotting the Graph
 plt.figure(figsize=(12,5))
 
 plt.plot(gc_df["Position"],gc_df["GC_contents"])
