@@ -101,7 +101,18 @@ plt.savefig(
 
 plt.show()
 
+#%%
+#Calculating Mean, Max, and Min GC Content
+mean_gc = gc_df["GC_contents"].mean()
+print(mean_gc)
+
+max_gc = gc_df["GC_contents"].max()
+print(max_gc)
+
+min_gc = gc_df["GC_contents"].min()
+print(min_gc)
 
 
 
 
+# %%
