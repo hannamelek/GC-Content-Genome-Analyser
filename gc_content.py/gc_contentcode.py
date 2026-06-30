@@ -112,6 +112,9 @@ print(max_gc)
 min_gc = gc_df["GC_contents"].min()
 print(min_gc)
 
+std_gc = gc_df["GC_contents"].std()
+print(std_gc)
+
 
 
 
