@@ -82,5 +82,25 @@ gc_df.to_csv(
 )
 
 
-
 # %%
+plt.figure(figsize=(12,5))
+
+plt.plot(gc_df["Position"],gc_df["GC_contents"])
+
+plt.xlabel("Genome Position(bp)")
+plt.ylabel("GC Content (%)")
+plt.title("Sliding Window GC Content of Bacillus subtilis")
+
+plt.grid(True)
+plt.tight_layout()
+
+plt.savefig(
+    r"C:\Users\Dr.MAAM\Desktop\GC Content Genome Analyser\output\gc_plot.png"
+)
+
+plt.show()
+
+
+
+
+
