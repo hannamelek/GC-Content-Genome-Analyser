@@ -127,6 +127,25 @@ print("Maximum GC%:", round(max_gc,2))
 print("Minimum GC%:", round(min_gc))
 print("Standard Deviation:", round(std_gc,2))
 
+#%%
+#BLAST Query
+query = genome[:1000]
+print(query)
+
+from Bio.SeqRecord import SeqRecord
+from Bio.Seq import Seq
+
+query_record = SeqRecord(
+    Seq(query),
+    id="Bsub_query",
+    description = "Frst 1000 bp of Bacillus subtilis"
+)
+
+SeqIO.write(query_record,
+    r"C:\Users\Dr.MAAM\Desktop\GC Content Genome Analyser\output\query.fasta",
+    "fasta")
+                       
+
 
 
 # %%
