@@ -154,7 +154,7 @@ print(blast_df.head())
                        
 # %%
 import numpy as np
-
+#converting E-value to LogE for better visualization
 blast_df["E-value"] = blast_df["E-value"].replace(0, 1e-300)
 
 blast_df["LogE"] = -np.log10(blast_df["E-value"])
@@ -162,3 +162,4 @@ blast_df["LogE"] = -np.log10(blast_df["E-value"])
 #plotting blast hits
 plt.figure(figsize=(10,5))
 plt.bar(blast_df["Organism"], blast_df["LogE"])
+
