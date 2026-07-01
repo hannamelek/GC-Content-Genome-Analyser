@@ -193,10 +193,10 @@ plt.show()
 print(blast_df.columns.tolist())
 print(blast_df.head())
 
-# %%
 
 
 
-# %%
 
-# %%
+
+
+
