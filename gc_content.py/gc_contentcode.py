@@ -115,6 +115,17 @@ print(min_gc)
 std_gc = gc_df["GC_contents"].std()
 print(std_gc)
 
+num_windows = len(gc_df)
+print(num_windows)
+
+# %%
+print("Summary Statistics:")
+print("--------------------")
+print("Number of Windows:", num_windows)
+print("Average GC%:", round(mean_gc,2))
+print("Maximum GC%:", round(max_gc,2))
+print("Minimum GC%:", round(min_gc))
+print("Standard Deviation:", round(std_gc,2))
 
 
 
