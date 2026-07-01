@@ -144,6 +144,13 @@ query_record = SeqRecord(
 SeqIO.write(query_record,
     r"C:\Users\Dr.MAAM\Desktop\GC Content Genome Analyser\output\query.fasta",
     "fasta")
+
+#%%
+#reading blast results
+blast_df = pd.read_csv(
+    r"C:\Users\Dr.MAAM\Desktop\GC Content Genome Analyser\output\BLAST_hit.csv"
+)
+print(blast_df.head())
                        
 
 
