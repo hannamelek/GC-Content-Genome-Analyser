@@ -51,7 +51,7 @@ GC_Content_Genome_Analyser/
 
 │
 ├── data/
-│   └── genome.fasta
+│   └── sequence.fasta
 │
 ├── output/
 │   ├── summary.csv
