@@ -75,7 +75,7 @@ GC_Content_Genome_Analyser/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/GC_Content_Genome_Analyser.git
+git clone https://github.com/hannamelek/GC_Content_Genome_Analyser.git
 ```
 
 Move into the project folder
@@ -107,4 +107,19 @@ Run the BLAST visualization
 python blast_analysis.py
 ```
 
+## Output Files
+
+The project generates:
+
+| File | Description |
+|------|-------------|
+| summary.csv | Basic genome statistics |
+| summary_statistics.csv | Sliding window summary statistics |
+| gc_content.csv | GC percentage for each window |
+| gc_plot.png | GC content variation plot |
+| query.fasta | Query sequence for BLAST |
+| blast_hits.csv | BLAST search results |
+| blast_hits.png | BLAST hit visualization |
+
+---
 
