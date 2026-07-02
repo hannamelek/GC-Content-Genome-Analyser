@@ -19,3 +19,27 @@ Instead of calculating a single GC percentage for the entire genome, this projec
 The analysis was performed on the genome of **Bacillus subtilis** downloaded from NCBI.
 
 ---
+
+##  Objectives
+
+- Download a real bacterial genome from NCBI
+- Read FASTA files using Biopython
+- Calculate nucleotide composition
+- Compute overall GC percentage
+- Perform sliding window GC analysis
+- Store results using Pandas
+- Visualize GC variation using Matplotlib
+- Generate publication-style summary tables
+- Prepare a sequence for BLAST analysis
+
+---
+
+##  Technologies Used
+
+- Python 3
+- Biopython
+- Pandas
+- Matplotlib
+- NumPy
+
+---
