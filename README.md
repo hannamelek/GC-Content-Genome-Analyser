@@ -43,3 +43,30 @@ The analysis was performed on the genome of **Bacillus subtilis** downloaded fro
 - NumPy
 
 ---
+
+## Project Structure
+
+```text
+GC_Content_Genome_Analyser/
+
+│
+├── data/
+│   └── genome.fasta
+│
+├── output/
+│   ├── summary.csv
+│   ├── summary_statistics.csv
+│   ├── gc_content.csv
+│   ├── gc_plot.png
+│   ├── query.fasta
+│   ├── blast_hits.csv
+│   └── blast_hits.png
+│
+├── gc_content.py
+├── blast_analysis.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
