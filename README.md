@@ -122,4 +122,17 @@ The project generates:
 | blast_hits.png | BLAST hit visualization |
 
 ---
+## Example Output
 
+### Summary Table
+
+| Statistic | Value |
+|-----------|------:|
+| Genome Length | 3,593,163 |
+| A | ... |
+| T | ... |
+| G | ... |
+| C | ... |
+| GC% | 44.14 |
+
+---
