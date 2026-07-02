@@ -70,3 +70,41 @@ GC_Content_Genome_Analyser/
 
 ---
 
+##  Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/GC_Content_Genome_Analyser.git
+```
+
+Move into the project folder
+
+```bash
+cd GC_Content_Genome_Analyser
+```
+
+Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Running the Project
+
+Run the GC content analysis
+
+```bash
+python gc_content.py
+```
+
+
+Run the BLAST visualization
+
+```bash
+python blast_analysis.py
+```
+
+
