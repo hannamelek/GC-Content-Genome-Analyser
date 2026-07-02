@@ -42,6 +42,7 @@ print(blast_df.columns)
 
 # %%
 import numpy as np
+
 #converting E-value to LogE for better visualization
 blast_df["E-value"] = blast_df["E-value"].replace(0, 1e-300)
 
