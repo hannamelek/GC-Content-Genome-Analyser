@@ -1,4 +1,19 @@
-#BLAST Query
+#%%
+# #BLAST Query
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
+from Bio.Seq import Seq
+
+record = SeqIO.read(
+    r"C:\Users\Dr.MAAM\Desktop\GC Content Genome Analyser\data\sequence.fasta",
+    "fasta"
+)
+
+genome = str(record.seq)
+
 query = genome[:1000]
 print(query)
 
@@ -63,3 +78,5 @@ plt.show()
 # %%
 print(blast_df.columns.tolist())
 print(blast_df.head())
+
+# %%
