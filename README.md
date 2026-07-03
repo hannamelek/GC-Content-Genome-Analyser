@@ -135,4 +135,68 @@ The project generates:
 | C | ... |
 | GC% | 44.14 |
 
+### Mean, Max, Min, 
+
+
+<img width="617" height="472" alt="Screenshot 2026-07-03 203705" src="https://github.com/user-attachments/assets/1494fe32-afa4-4ea4-b981-5afa21e37cba" />
+
+
 ---
+### GC Content Plot
+
+<img width="4800" height="1800" alt="gc_plot" src="https://github.com/user-attachments/assets/b3c9ac7e-32cc-43fc-84f9-98d539c26a79" />
+
+---
+
+### BLAST Results
+
+<img width="2000" height="600" alt="BLAST_hit" src="https://github.com/user-attachments/assets/07422835-87b8-4b43-8fc2-2192ddc70c32" />
+
+##  Biological Interpretation
+
+The overall GC content provides information about the nucleotide composition of the genome.
+
+The sliding window analysis reveals how GC content changes across different genomic regions.
+
+Regions with unusually high or low GC content may indicate:
+
+- Genomic islands
+- Horizontally transferred DNA
+- Regulatory regions
+- Evolutionary differences
+
+BLAST analysis identifies similar sequences in other organisms and helps determine sequence homology.
+
+---
+
+##  Skills Demonstrated
+
+- Reading FASTA files
+- DNA sequence processing
+- Biopython
+- Pandas DataFrames
+- Sliding window algorithms
+- Scientific data visualization
+- Basic comparative genomics
+- BLAST analysis
+- GitHub project organization
+
+---
+
+##  References
+
+- NCBI Genome Database
+- Biopython Documentation
+- Pandas Documentation
+- Matplotlib Documentation
+- BLAST Documentation
+
+---
+
+##  Author
+
+**Hanna Melek**
+
+This project was completed as part of my bioinformatics learning journey to strengthen my Python programming, sequence analysis, and data visualization skills.
+
+
