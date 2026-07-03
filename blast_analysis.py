@@ -32,6 +32,7 @@ SeqIO.write(query_record,
 
 #%%
 #reading blast results
+
 columns = [
     "Query",
     "Subject",
