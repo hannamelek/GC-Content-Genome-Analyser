@@ -138,8 +138,7 @@ The project generates:
 ### Mean, Max, Min, 
 
 
-<img width="617" height="472" alt="Screenshot 2026-07-03 203705" src="https://github.com/user-attachments/assets/1494fe32-afa4-4ea4-b981-5afa21e37cba" />
-
+<img width="587" height="473" alt="Screenshot 2026-07-04 190729" src="https://github.com/user-attachments/assets/fed8e564-b698-4553-aec7-e19b9ad0a91a" />
 
 ---
 ### GC Content Plot
