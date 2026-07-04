@@ -53,22 +53,6 @@ os.makedirs("output", exist_ok=True)  #creates the folder if it doesn't exist
 df.to_csv("output/summary.csv", index=False)
 
 
-#%%
-#Calculating Mean, Max, and Min GC Content
-mean_gc = gc_df["GC_contents"].mean()
-print(mean_gc)
-
-max_gc = gc_df["GC_contents"].max()
-print(max_gc)
-
-min_gc = gc_df["GC_contents"].min()
-print(min_gc)
-
-std_gc = gc_df["GC_contents"].std()
-print(std_gc)
-
-num_windows = len(gc_df)
-print(num_windows)
 
 #%%
 import matplotlib.pyplot as plt
@@ -111,8 +95,26 @@ gc_df.to_csv(
     r"C:\Users\Dr.MAAM\Desktop\GC Content Genome Analyser\output\gc_content.csv",
     index=False
 )
+#%%
+
+#Calculating Mean, Max, and Min,Std dev GC Content
+mean_gc = gc_df["GC_Content"].mean()
+print(mean_gc)
+
+max_gc = gc_df["GC_Content"].max()
+print(max_gc)
+
+min_gc = gc_df["GC_Content"].min()
+print(min_gc)
+
+std_gc = gc_df["GC_Content"].std()
+print(std_gc)
+
+num_windows = len(gc_df)
+print(num_windows)
 
 
+#%%
 
 # Smooth the GC values
 
